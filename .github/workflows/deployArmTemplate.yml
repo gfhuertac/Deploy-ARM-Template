@@ -4,9 +4,11 @@ on:
   push:
     branches:
     - master
+  workflow_dispatch:
+
 env:
-  AZURE_SUBSCRIPTION_ID: 9c92f09d-c60d-4e1b-a958-937ba30328e9   # set this to your Azure Subscription Id
-  AZURE_RESOURCE_GROUP: GitHubActionExercise-rg   # set this to your target resource group
+  AZURE_SUBSCRIPTION_ID: 9c92f09d-c60d-4e1b-a958-937ba30328e9
+  AZURE_RESOURCE_GROUP: GitHubActionExercise-rg
 
 jobs:
   deploy-virtual-network-template:
