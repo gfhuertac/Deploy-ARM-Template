@@ -18,7 +18,7 @@
         },
         "OwnerName": {
             "type": "string",
-            "defaultValue": "Will Smith",
+            "defaultValue": "John Smith",
             "metadata": {
                 "description": "Name of the stakeholder responsible for this resource"
             }
